@@ -1,14 +1,5 @@
-
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
-
-
-class ContactCard extends StatelessWidget {
-
-  String name,number,mail;
-  ContactCard(this.name,this.mail,this.number);
-
+class Contacts extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -16,8 +7,6 @@ class ContactCard extends StatelessWidget {
           image: DecorationImage(
               image: AssetImage("Back.jpg"),
               fit: BoxFit.cover)),
-
-      //margin: EdgeInsets.only(left:20.0 ,right: 20.0 , top: 20.0),
       child: Column(
         children: [
           Container( margin: EdgeInsets.only(bottom: 20.0),
