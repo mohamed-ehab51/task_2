@@ -8,10 +8,10 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: ListView(
-        children: [
-          ContactCard('Muhamed','mo@gmail.com','0146513555')
-        ],
+      body: Container(
+        margin: EdgeInsets.only(top: 20.0),
+        child:
+          Contacts(),
       ),
     );
   }
